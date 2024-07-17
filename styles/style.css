@@ -298,8 +298,6 @@ button:focus {
   transition: box-shadow 0.5s;
 }
 
-
-
 .button:hover .save-icon {
   fill: var(--bg-color);
 }
@@ -442,7 +440,6 @@ button:focus {
   display: none;
 }
 
-
 /*filters*/
 .saturate {
   filter: saturate(50%);
@@ -465,7 +462,7 @@ button:focus {
 }
 
 .blur {
-filter: blur(15px);
+  filter: blur(15px);
 }
 
 .multi {
